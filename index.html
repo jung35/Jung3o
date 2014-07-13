@@ -1,72 +1,54 @@
 <!doctype html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>Jung Oh &mdash; Web Developer &amp; Designer</title>
-        <link href="./normalize.css" rel="stylesheet" type="text/css">
-        <link href="./style.css" rel="stylesheet" type="text/css">
-        <link href="./buttons.css" rel="stylesheet" type="text/css">
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
-    </head>
-    <body>
-        <div id="wrap">
-            <div id="header">
-                <div id="name">Jung Oh<div id="title">Web Developer<br><span>&amp;</span>Designer</div></div><!--
-                --><div id="menu"><!--
-                    --><a href="./index.html" class="selected">Main</a><!--
-                    --><a href="./portfolio.html" class="lnk">Portfolio</a><!--
-                    --><a href="./work.html" class="lnk">Work</a><!--
-                    --><a href="#cntct" class="static">Contact</a><!--
-                --></div>
-            </div>
-            <div id="body">
-                <h1>Hello!</h1><h2>About</h2>
-                <p>My name is Jung, a 17-year old Korean High school student living in the United States of America, and I am a Web Developer and a Designer. Since I was young, I have always been interested in computers and the internet. From my interest, I have found myself playing with different computer languages and after few years of learning new things, I've decided I want to design and develop websites.</p>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
 
-                <p>I have self-taught most of the technology related things so far. I would say I am proficient with Web Developing and Designing. In my free time, I enjoy coming up new designs and layouts of random things just so I can just improve on my designing skills, and I enjoy making little web tools for myself so that I can use just a click away, but also so that I can improve by back-end. I am very passionate about the web and I love learning new things at any moment that I know will help me improve on what I do.</p>
+  <div class="contain-to-grid sticky">
+    <nav class="top-bar" data-topbar data-options="sticky_on: large">
+        <ul class="title-area">
+          <li class="name">
+            <h1><a href="#">Jung Oh</a></h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
 
-                <pre id="messybox"><span class="topic">Programing Languages</span>      <span class="topic">Languages</span>                     <span class="topic">Software</span>
-  -  HTML                   -  English                     -  Adobe Photoshop
-  -  CSS                    -  Korean                      -  Adobe Illustrator
-  -  Javascript                                            -  Sublime Text 2
-  -  PHP                  <span class="topic">OS</span>                               -  Eclipse
-  -  Python                 -  Windows (XP/Vista/7/8)      -  JCreator
-  -  Java                   -  Ubuntu (Desktop/Server)     -  VS for Win 8
-</pre>
+        <section class="top-bar-section">
+          <ul class="right">
+            <li class="active"><a href="#">Right Button Active</a></li>
+            <li class="has-dropdown">
+              <a href="#">Right Button Dropdown</a>
+              <ul class="dropdown">
+                <li><a href="#">First link in dropdown</a></li>
+              </ul>
+            </li>
+          </ul>
 
+          <ul class="left">
+            <li><a href="#">Left Nav Button</a></li>
+          </ul>
+        </section>
+      </nav>
+  </div>
 
-<!--
-Programing Languages      Languages                     Software
--  HTML                   -  English                     -  Adobe Photoshop
--  CSS                    -  Korean                      -  Adobe Illustrator
--  Javascript                                            -  Sublime Text 2
--  PHP                  OS                               -  Eclipse
--  Python                 -  Windows (XP/Vista/7/8)      -  JCreator
--  Java                   -  Ubuntu (Desktop/Server)     -  VS for Win 8
--->
-                <hr class="red">
-                <h2 id="cntct">Contact</h2><br><br>
-                <div id="cntct-list"><div class="mail">E-Mail</div><div title="twitter.com/" class="twitter">Twitter</div><div title="steamcommunity.com/id/" class="steam">Steam</div><div title="github.com/" class="github">Github</div><div title="forrst.com/people/" class="forrst">Forrst</div><div title="skype:zzlawlzz?add" class="skype">Skype</div>
-                </div>
-            </div>
-            <div id="end">&copy; Jung Oh 2013</div>
-        </div>
-        <script src="=).js"></script>
-        <script src="base.decode.js"></script>
-        
-        <script type="text/javascript">
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-26127712-1']);
-          _gaq.push(['_setDomainName', 'jung3o.com']);
-          _gaq.push(['_setAllowLinker', true]);
-          _gaq.push(['_trackPageview']);
+    <div class="row">
+      <div class="large-12 columns">
+        <h1>Welcome to Foundation</h1>
+      </div>
+    </div>
 
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
-        </script>
-    </body>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
+    <script src="//localhost:35729/livereload.js"></script>
+  </body>
 </html>
