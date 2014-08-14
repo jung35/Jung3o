@@ -24,7 +24,7 @@
 
 ##Config
 [There is also customized theme for predawn][predawn_custom]
-######Preferences.sublime-settings
+#####Preferences.sublime-settings
 ```JSON
 {
   "caret_extra_width": 1,
