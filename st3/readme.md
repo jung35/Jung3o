@@ -23,7 +23,7 @@
 * [SublimeLinter-php](https://sublime.wbond.net/packages/SublimeLinter-php)
 
 ##Config
-[There is also customized theme for predawn][predawn_custom]
+[There is also customized theme for Predawn that you can replace with][predawn_custom]
 #####Preferences.sublime-settings
 ```JSON
 {
