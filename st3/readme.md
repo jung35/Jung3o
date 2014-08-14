@@ -23,6 +23,7 @@
 * [SublimeLinter-php](https://sublime.wbond.net/packages/SublimeLinter-php)
 
 ##Config
+[There is also customized theme for predawn][predawn_custom]
 ```JSON
 {
   "caret_extra_width": 1,
@@ -78,8 +79,6 @@
 ```
 
 ##Info
-[There is also customized theme for predawn][predawn_custom]
-
 You also are going to need to show git.exe for the plugins Git and GitGutter.
 If you have github client installed and you're a Windows user, just go to `%appdata%\..\Local\GitHub\` and
 click on a folder that has the word `PortableGit` and then click on bin. There, you should find the git.exe.
