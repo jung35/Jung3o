@@ -5,22 +5,22 @@
 [st3_screen]:http://i.imgur.com/hao8E1F.png
 
 ##Plugins
-* Color Highlighter
-* DocBlockr
-* Emmet
-* Git
-* GitGutter
-* LESS
-* Predawn
-* Sass
-* SideBarEnhancements
-* SublimeLinter
+* [Color Highlighter](https://sublime.wbond.net/packages/Color Highlighter)
+* [DocBlockr](https://sublime.wbond.net/packages/DocBlockr)
+* [Emmet](https://sublime.wbond.net/packages/Emmet)
+* [Git](https://sublime.wbond.net/packages/Git)
+* [GitGutter](https://sublime.wbond.net/packages/GitGutter)
+* [LESS](https://sublime.wbond.net/packages/LESS)
+* [Predawn](https://sublime.wbond.net/packages/Predawn)
+* [Sass](https://sublime.wbond.net/packages/Sass)
+* [SideBarEnhancements](https://sublime.wbond.net/packages/SideBarEnhancements)
+* [SublimeLinter](https://sublime.wbond.net/packages/SublimeLinter)
 
 ####Extras
-* PHP-Twig
-* Laravel Blade Highlighter
-* SublimeLinter-csslint
-* SublimeLinter-php
+* [PHP-Twig](https://sublime.wbond.net/packages/PHP-Twig)
+* [Laravel Blade Highlighter](https://sublime.wbond.net/packages/Laravel Blade Highlighter)
+* [SublimeLinter-csslint](https://sublime.wbond.net/packages/SublimeLinter-csslint)
+* [SublimeLinter-php](https://sublime.wbond.net/packages/SublimeLinter-php)
 
 ##Config
 ```JSON
@@ -79,5 +79,9 @@
 
 ##Info
 [There is also customized theme for predawn][predawn_custom]
+
+You also are going to need to show git.exe for the plugins Git and GitGutter.
+If you have github client installed and you're a Windows user, just go to `%appdata%\..\Local\GitHub\` and
+click on a folder that has the word `PortableGit` and then click on bin. There, you should find the git.exe.
 
 [predawn_custom]:https://github.com/jung3o/Jung3o/tree/master/st3/predawn.sublime-theme
