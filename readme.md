@@ -8,4 +8,4 @@
 
 ##Jung's CS:GO Config
 
-![http://media.steampowered.com/apps/csgo/blog/images/breakout_bg.jpg][http://media.steampowered.com/apps/csgo/blog/images/breakout_bg.jpg]
+![http://i.imgur.com/m2vT0jp.png](http://i.imgur.com/m2vT0jp.png)
