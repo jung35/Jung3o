@@ -59,9 +59,9 @@
     "draw_active"
   ],
   "indent_to_bracket": true,
-  "match_brackets_content": false,
-  "match_selection": false,
-  "match_tags": false,
+  "match_brackets_content": true,
+  "match_selection": true,
+  "match_tags": true,
   "open_files_in_new_window": false,
   "overlay_scroll_bars": "enabled",
   "preview_on_click": true,
@@ -69,13 +69,13 @@
   "scroll_past_end": true,
   "scroll_speed": 5.0,
   "show_full_path": false,
+  "sidebar_xlarge": true,
   "tab_size": 2,
   "tabs_small": true,
   "theme": "predawn.sublime-theme",
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
-  "word_wrap": false,
-  "sidebar_xlarge": true
+  "word_wrap": false
 }
 ```
 #####Syntax Specific Settings (Select Markdown)
