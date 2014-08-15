@@ -64,7 +64,7 @@
   "match_tags": false,
   "open_files_in_new_window": false,
   "overlay_scroll_bars": "enabled",
-  "preview_on_click": false,
+  "preview_on_click": true,
   "save_on_focus_lost": true,
   "scroll_past_end": true,
   "scroll_speed": 5.0,
