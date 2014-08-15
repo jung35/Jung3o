@@ -1,6 +1,6 @@
 #Jung's Sublime Text 3 Config
 
-![http://i.imgur.com/hao8E1F.png][st3_screen]
+![st3_screen]
 
 [st3_screen]:http://i.imgur.com/hao8E1F.png
 
@@ -23,7 +23,6 @@
 * [SublimeLinter-php](https://sublime.wbond.net/packages/SublimeLinter-php)
 
 ##Config
-[There is also customized theme for Predawn that you can replace with][predawn_custom]
 #####Preferences.sublime-settings
 ```JSON
 {
@@ -78,10 +77,20 @@
   "word_wrap": false
 }
 ```
+#####Syntax Specific Settings (Select Markdown)
+```
+{
+  "color_scheme": "Packages/Predawn/predawn-markdown.tmTheme",
+  "draw_centered": true,
+  "draw_indent_guides": false,
+  "font_size": 10,
+  "trim_trailing_white_space_on_save": false,
+  "word_wrap": true,
+  "wrap_width": 80
+}
+```
 
 ##Info
 You also are going to need to show git.exe for the plugins Git and GitGutter.
 If you have github client installed and you're a Windows user, just go to `%appdata%\..\Local\GitHub\` and
 click on a folder that has the word `PortableGit` and then click on bin. There, you should find the git.exe.
-
-[predawn_custom]:https://github.com/jung3o/Jung3o/tree/master/st3/predawn.sublime-theme
