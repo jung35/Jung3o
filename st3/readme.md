@@ -43,7 +43,7 @@
     "bold",
     "subpixel_antialias"
   ],
-  "font_size": 10,
+  "font_size": 14,
   "highlight_line": true,
   "ignored_packages":
   [
@@ -74,11 +74,12 @@
   "theme": "predawn.sublime-theme",
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
-  "word_wrap": false
+  "word_wrap": false,
+  "sidebar_xlarge": true
 }
 ```
 #####Syntax Specific Settings (Select Markdown)
-```
+```JSON
 {
   "color_scheme": "Packages/Predawn/predawn-markdown.tmTheme",
   "draw_centered": true,
