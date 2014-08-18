@@ -15,6 +15,7 @@
 * [Sass](https://sublime.wbond.net/packages/Sass)
 * [SideBarEnhancements](https://sublime.wbond.net/packages/SideBarEnhancements)
 * [SublimeLinter](https://sublime.wbond.net/packages/SublimeLinter)
+* [BufferScroll](https://sublime.wbond.net/packages/BufferScroll)
 
 ####Extras
 * [PHP-Twig](https://sublime.wbond.net/packages/PHP-Twig)
