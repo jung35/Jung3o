@@ -2,7 +2,7 @@
 
 ![st3_screen]
 
-[st3_screen]:http://i.imgur.com/TXfO30D.png
+[st3_screen]:http://i.imgur.com/RH8dsYP.png
 
 ##Plugins
 * [Color Highlighter](https://sublime.wbond.net/packages/Color Highlighter)
