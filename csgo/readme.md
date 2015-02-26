@@ -5,6 +5,6 @@
 [csgo_img]:http://i.imgur.com/m2vT0jp.png
 
 ##My Launch Options
-`-novid -freq 120 +exec autoexec.cfg -high -noborder -processheap +cpu_frequency_monitoring 2`
+`-novid -freq 120 +exec autoexec.cfg -high -noborder -processheap +cpu_frequency_monitoring 2 -w 1360 -h 768`
 
 ###[My Autoexec.cfg](https://github.com/jung3o/Jung3o/tree/master/csgo/autoexec.cfg)
