@@ -30,12 +30,12 @@
 	"caret_extra_width": 1,
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/predawn (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Predawn Twilight (SL).tmTheme",
 	"copy_with_empty_selection": false,
-	"drag_text": false,
+	"drag_text": true,
 	"draw_minimap_border": true,
 	"enable_tab_scrolling": false,
-	"ensure_newline_at_eof_on_save": true,
+	"ensure_newline_at_eof_on_save": false,
 	"findreplace_small": true,
 	"font_face": "Consolas",
 	"font_options":
@@ -48,7 +48,6 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"SublimeLinter",
 		"Vintage"
 	],
 	"ignored_words":
@@ -64,6 +63,7 @@
 	"match_brackets_content": true,
 	"match_selection": true,
 	"match_tags": true,
+	"mid_line_tabs": true,
 	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "enabled",
 	"preview_on_click": true,
@@ -75,8 +75,6 @@
 	"tab_size": 4,
 	"tabs_small": true,
 	"theme": "predawn.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
 	"word_wrap": false
 }
 
