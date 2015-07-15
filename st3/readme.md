@@ -30,7 +30,7 @@
 	"caret_extra_width": 1,
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/SublimeLinter/Predawn Twilight (SL).tmTheme",
+	"color_scheme": "Packages/Predawn/predawn.tmTheme",
 	"copy_with_empty_selection": false,
 	"drag_text": true,
 	"draw_minimap_border": true,
