@@ -6,7 +6,7 @@
 
 ##My Launch Options
 ```
--novid -freq 144 +exec autoexec.cfg -high -noborder -processheap +cpu_frequency_monitoring 2 -tickrate 128 -maxdownloadfilesizemb 1024
+-novid -freq 144 +exec autoexec.cfg -high -noborder -processheap -tickrate 85 -maxdownloadfilesizemb 1024
 ```
 
 ###[My Autoexec.cfg](https://github.com/jung3o/Jung3o/tree/master/csgo/autoexec.cfg)
