@@ -30,7 +30,7 @@
 	"caret_extra_width": 1,
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Predawn/predawn.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 	"copy_with_empty_selection": false,
 	"drag_text": true,
 	"draw_minimap_border": true,
@@ -50,19 +50,18 @@
 	[
 		"Vintage"
 	],
-	"ignored_words":
-	[
-		"Plugin"
-	],
 	"indent_guide_options":
 	[
 		"draw_normal",
 		"draw_active"
 	],
 	"indent_to_bracket": true,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
 	"match_brackets_content": true,
 	"match_selection": true,
 	"match_tags": true,
+	"material_theme_small_tab": true,
 	"mid_line_tabs": true,
 	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "enabled",
@@ -74,10 +73,9 @@
 	"sidebar_xlarge": true,
 	"tab_size": 4,
 	"tabs_small": true,
-	"theme": "predawn.sublime-theme",
+	"theme": "Material-Theme-Darker.sublime-theme",
 	"word_wrap": false
 }
-
 ```
 #####Syntax Specific Settings (Select Markdown)
 ```JSON
@@ -89,6 +87,19 @@
   "trim_trailing_white_space_on_save": false,
   "word_wrap": true,
   "wrap_width": 80
+}
+```
+#####Stupid Indent
+```JSON
+{
+	"configuration":
+	[
+		{
+			"patterns": ["*.yml", "*.yaml", "*.blade.php", "*.sass", "*.less"],
+			"tab_size": 2,
+			"translate_tabs_to_spaces": true
+		},
+	]
 }
 ```
 
