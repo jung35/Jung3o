@@ -5,23 +5,21 @@
 [st3_screen]:http://i.imgur.com/RH8dsYP.png
 
 ##Plugins
-* [Color Highlighter](https://sublime.wbond.net/packages/Color Highlighter)
-* [DocBlockr](https://sublime.wbond.net/packages/DocBlockr)
-* [Emmet](https://sublime.wbond.net/packages/Emmet)
-* [Git](https://sublime.wbond.net/packages/Git)
-* [GitGutter](https://sublime.wbond.net/packages/GitGutter)
-* [LESS](https://sublime.wbond.net/packages/LESS)
-* [Predawn](https://sublime.wbond.net/packages/Predawn)
-* [Sass](https://sublime.wbond.net/packages/Sass)
-* [SideBarEnhancements](https://sublime.wbond.net/packages/SideBarEnhancements)
-* [SublimeLinter](https://sublime.wbond.net/packages/SublimeLinter)
-* [BufferScroll](https://sublime.wbond.net/packages/BufferScroll)
-
-####Extras
-* [PHP-Twig](https://sublime.wbond.net/packages/PHP-Twig)
-* [Laravel Blade Highlighter](https://sublime.wbond.net/packages/Laravel Blade Highlighter)
-* [SublimeLinter-csslint](https://sublime.wbond.net/packages/SublimeLinter-csslint)
-* [SublimeLinter-php](https://sublime.wbond.net/packages/SublimeLinter-php)
+* Alignment
+* Babel
+* BracketHighlither
+* Color Highlighter
+* DocBlockr
+* Emmet
+* Laravel Blade Highlighter
+* LESS
+* Liquid
+* Material Theme
+* Sass
+* Stupid Indent
+* SublimeCodeIntel
+* SublimeLinter
+* SublimeLinter-php
 
 ##Config
 #####Preferences.sublime-settings
