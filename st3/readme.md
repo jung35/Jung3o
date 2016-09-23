@@ -5,21 +5,29 @@
 [st3_screen]:http://i.imgur.com/RH8dsYP.png
 
 ##Plugins
-* Alignment
-* Babel
-* BracketHighlither
-* Color Highlighter
-* DocBlockr
-* Emmet
-* Laravel Blade Highlighter
-* LESS
-* Liquid
-* Material Theme
-* Sass
-* Stupid Indent
-* SublimeCodeIntel
-* SublimeLinter
-* SublimeLinter-php
+```JSON
+	"installed_packages":
+	[
+		"Alignment",
+		"Babel",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"DocBlockr",
+		"Emmet",
+		"Jade",
+		"LESS",
+		"Material Theme",
+		"Package Control",
+		"Sass",
+		"SideBarEnhancements",
+		"Siteleaf Liquid Syntax",
+		"Stupid Indent",
+		"Stylus",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-php"
+	]
+```
 
 ##Config
 #####Preferences.sublime-settings
